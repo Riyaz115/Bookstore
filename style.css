@@ -14,14 +14,14 @@ nav{
 }
 nav ul {
     list-style: none;
-    margin: 0;
+    margin: auto;
     padding: 0;
     display: inline-block;
 }
 
 nav ul li {
-    margin-left: 20px;
-    display: inline-block;
+    margin-left: auto;
+    display: inline-flex;
 }
 
 nav ul li a {
@@ -53,6 +53,15 @@ footer {
     flex-wrap: wrap;
     justify-content: space-around;
 }
+.col-4 {
+    background: #fff;
+    border: 1px solid #ddd;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/*
 .col-2{
     flex-basis: 50%;
     min-width: 300px;
@@ -78,10 +87,6 @@ footer {
 .btn:hover{
     background: #563434;
 }
-.header{
-    background: radial-gradient(#c3bcbc,#ebe2e2);
-    border: none;
-}
 .header .row{
     margin-top: 70px;
 }
@@ -95,6 +100,10 @@ footer {
 }
 .col-3 img{
     width: 100%;
+}*/
+.header{
+    background: radial-gradient(#c3bcbc,#ebe2e2);
+    border: none;
 }
 .small-container{
     overflow: hidden;
@@ -102,6 +111,21 @@ footer {
     margin: auto;
     padding-left: 25px;
     padding-right: 25px;
+}
+.col-4 .buy-now {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.col-4 .buy-now:hover {
+    background-color: #218838;
+}
+.col-4 p{
+    font-size: 1.2em;
 }
 .col-4{
     flex-basis: 25%;
@@ -131,9 +155,6 @@ footer {
     left: 50%;
     transform: translateX(-50%);
 }
-.col-4 p{
-    font-size: 14px;
-}
 .rating .fa{
     color: #ff523b;
 }
@@ -147,7 +168,6 @@ main {
     padding: 20px 0;
     background-color: #f4f4f4;
 }
-
 .container {
     width: 80%;
     margin: 0 auto;
