@@ -92,6 +92,17 @@ nav ul li a:hover {
     background: radial-gradient(#c3bcbc,#ebe2e2);
     border: none;
 }
+.product-detail .buy-now {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.product-detail .buy-now:hover {
+    background-color: #218838;
+}
 .col-3{
     flex-basis: 20%;
     min-width: auto;
