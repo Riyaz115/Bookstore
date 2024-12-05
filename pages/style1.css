@@ -88,6 +88,17 @@ nav ul li a:hover {
     justify-content: space-around;
     text-align: center;
 }
+.product-detail .buy-now1{
+    background-color: #ff5722;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.product-detail .buy-now1:hover {
+    background-color: #db481b;
+}
 .header{
     background: radial-gradient(#c3bcbc,#ebe2e2);
     border: none;
